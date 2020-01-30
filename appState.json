@@ -1,0 +1,80 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2644d373-c7d1-4a9f-8002-c3edf19a6eb5": {
+        "id": "2644d373-c7d1-4a9f-8002-c3edf19a6eb5",
+        "parent": null,
+        "name": "VCSRefac",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "fc94c50f-add6-47f6-8051-0d6f7c2391f2"
+        ],
+        "isRemovable": false,
+        "filePath": "VCSRefac"
+      },
+      "fc94c50f-add6-47f6-8051-0d6f7c2391f2": {
+        "id": "fc94c50f-add6-47f6-8051-0d6f7c2391f2",
+        "parent": "2644d373-c7d1-4a9f-8002-c3edf19a6eb5",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "VCSRefac/lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "2644d373-c7d1-4a9f-8002-c3edf19a6eb5",
+    "openFiles": [
+      "fc94c50f-add6-47f6-8051-0d6f7c2391f2"
+    ],
+    "currentFileId": "fc94c50f-add6-47f6-8051-0d6f7c2391f2",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "VCSRefac",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1580363613546,
+    "language": "javascript"
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "VCSRefac",
+      "url": "https://github.com/zgma-test/VCSRefac"
+    }
+  }
+}
